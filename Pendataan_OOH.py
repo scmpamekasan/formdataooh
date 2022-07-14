@@ -5,9 +5,6 @@ import streamlit.components.v1 as stc
 
 
 
-# Data Viz Pkgs
-import plotly.express as px 
-
 
 HTML_BANNER = """
     <div style="background-color:#464e5f;padding:10px;border-radius:10px">
@@ -152,10 +149,9 @@ def main():
 			st.dataframe(clean_df)
 
 	else:
-		st.subheader("About ToDo List App")
-		st.info("Built with Streamlit")
-		st.info("Jesus Saves @JCharisTech")
-		st.text("Jesse E.Agbe(JCharis)")
+		st.subheader("About Pendataan OOH")
+		st.info("By DSO Pamekasan")
+		st.text("By DSO Pamekasan")
 
 
 if __name__ == '__main__':
