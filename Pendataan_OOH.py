@@ -38,16 +38,23 @@ def main():
 
 		with col2:
 			task_status = st.selectbox("Jenis OOH",[
-                        "--- Jenis OOH ---",
-                        "Billboard - 10m x 5m",
-                        "Billboard - 5m x 10m",
-                        "Billboard - 8m x 4m",
-                        "Billboard - 4m x 8m",
-                        "Baliho - 6m x 4m",
-                        "Midis - 3m x 6m",
-                        "Midis - 4m x 2m",
-                        "Midis - 2m x 4m",
-                        "PJU - 2m x 1m"
+                        " ",
+                        "Billboard - 10m x 5m - BL",
+			"Billboard - 10m x 5m - FL",
+                        "Billboard - 5m x 10m - BL",
+			"Billboard - 5m x 10m - FL",
+                        "Billboard - 8m x 4m - BL",
+			"Billboard - 8m x 4m - FL",
+                        "Billboard - 4m x 8m - BL",
+			"Billboard - 4m x 8m - FL",
+                        "Baliho - 6m x 4m - BL",
+			"Baliho - 6m x 4m - FL",
+			"Baliho - 6m x 4m - NL",
+                        "Midis - 3m x 6m - NL",
+                        "Midis - 4m x 2m - BL",
+                        "Midis - 2m x 4m - BL",
+			"Midis - 2m x 4m - NL",	
+                        "PJU - 2m x 1m - BL"
                             ]
                         )
 			task_due_date = st.text_area("Diisi Jenis Lampu(BL/FL/NL)-Jumlah Titik-Jumlah Muka-Alamat-Zona. (Contoh Pengisian : BL-1-1-Pemuda Kaffa-Bangkalan)")
