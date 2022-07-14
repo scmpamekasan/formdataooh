@@ -50,11 +50,11 @@ def main():
                         "PJU - 2m x 1m"
                             ]
                         )
-			task_due_date = st.text_area("Diisi Jenis Lampu-Jumlah Titik-Jumlah Muka-Alamat-Zona. (Contoh Pengisian : BL-1-1-Pemuda Kaffa-Bangkalan)")
+			task_due_date = st.text_area("Diisi Jenis Lampu(BL/FL/NL)-Jumlah Titik-Jumlah Muka-Alamat-Zona. (Contoh Pengisian : BL-1-1-Pemuda Kaffa-Bangkalan)")
 
 		if st.button("Submit"):
 			add_data(task,task_status,task_due_date)
-			st.success("Setiap 'Click Submit' Data Otomatis Tersimpan. Refresh Browser untuk ADD NEW DATA".format(task))
+			st.success("Setiap 'Click Submit' Data Otomatis Tersimpan. Refresh Browser untuk ADD NEW DATA atau Close Browser Jika Sudah Selesai".format(task))
 
 
 	elif choice == "Read":
