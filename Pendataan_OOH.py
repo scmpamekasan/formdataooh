@@ -54,7 +54,7 @@ def main():
 
 		if st.button("Submit"):
 			add_data(task,task_status,task_due_date)
-			st.success("Terima Kasih Sudah Mengisi Form Dengan Benar".format(task))
+			st.success("Setiap 'Click Submit' Data Otomatis Tersimpan. Refresh Browser untuk ADD NEW DATA".format(task))
 
 
 	elif choice == "Read":
